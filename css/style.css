@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.contenedor {
+  width: 1000px;
+  height: 600px;
+  background-color: #54defd;
+  border: 2px solid #fff;
+  margin: 150px auto;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.contenedor h1 {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #444;
+  border: 1px solid #ddd;
+}
+
+.contenedor > div {
+  margin: 50px;
+}
+
+.contenedor input {
+  width: 70%;
+  height: 30px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.contenedor button {
+  padding: 10px;
+  border-radius: 10px;
+}
