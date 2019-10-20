@@ -1,12 +1,15 @@
 // Introduccion de  los fondos
 
 var fondosIniciales = parseInt(prompt("Introduzca la cantidad inicial"));
+console.log(fondosIniciales.typeof);
+var fondoTotal = document.querySelector(".contenedor #totalFondos input");
+/* fondoTotal.value = fondosIniciales; */
 
-// Funcion que pinte el dinero inicial
+// Funcion que calcule el total del dinero
 
-function fondosTotales(pFondos, pGasto) {
-  var fondosTotales = pFondos - pGasto;
-  return fondosTotales;
+function calcularFondos(pFondos, pGasto) {
+  var fondosRestantes = 0;
+  fondosRestantes = pFondos - pGasto;
+
+  console.log(fondosRestantes);
 }
-
-fondosTotales(1000, 250);
